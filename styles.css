@@ -1,1 +1,112 @@
-/* Пиши стили тут */
+.rating {
+    display: flex;
+    grid-gap: 50px;
+}
+
+.container1 {
+    position: relative;
+}
+
+.star1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+.container1:hover .star1 {
+    visibility: visible;
+}
+
+.empty-star1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container2 {
+    position: relative;
+}
+
+.star2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.container2:hover .star2 {
+    visibility: visible;
+}
+
+.empty-star2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container3 {
+    position: relative;
+}
+
+.star3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.container3:hover .star3 {
+    visibility: visible;
+}
+
+.empty-star3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container4 {
+    position: relative;
+}
+
+.star4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.container4:hover .star4 {
+    visibility: visible;
+}
+
+.empty-star4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container5 {
+    position: relative;
+}
+
+.star5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.container5:hover .star5 {
+    visibility: visible;
+}
+
+.empty-star5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container:has(~ .container:hover) .star {
+    visibility: visible;
+}
